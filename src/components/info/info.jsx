@@ -6,9 +6,9 @@ function info() {
   return (
     <div className="info">
       <div className="info__left"></div>
-      <img src={dna}></img>
+      <img src={dna} className="info__img"></img>
       <div className="info__right">
-        <h2>Discover our mission</h2>
+        <h2 className="info__h2">Discover our mission</h2>
         <p>
           Learn more about our dedication to raising awareness about Klinefelter
           syndrome, the positive impact we create in the lives of individuals
