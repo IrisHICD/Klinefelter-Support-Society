@@ -4,7 +4,7 @@ import dna from "../../assets/images/infoimg.png";
 
 function info() {
   return (
-    <div>
+    <div className="info">
       <div className="info__left"></div>
       <img src={dna}></img>
       <div className="info__right">
