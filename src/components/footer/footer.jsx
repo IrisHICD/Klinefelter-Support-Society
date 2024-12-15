@@ -1,13 +1,17 @@
 import React from "react";
 import "./footer.scss";
+import logo from "../../assets/images/new_logo.webp";
 
 function footer() {
   return (
     <div>
       <footer className="footer">
         <div className="footer-left">
+          <img src={logo} className="footer-logo" type="image/webp" />
           <h4>Klinefelter Support Society</h4>
-          <img className="footer-logo" />
+        </div>
+        <div className="footer-mid">
+          <p>(add social media links)</p>
         </div>
         <div className="footer-right">
           <div className="footer-info">
