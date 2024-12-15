@@ -1,19 +1,13 @@
 import { useState } from "react";
 import "./App.scss";
-import Navbar from "./components/navbar/navbar";
-import Header from "./components/header/header";
-import Info from "./components/info/info";
-import Footer from "./components/footer/footer";
+import LandingPage from "./pages/landingPage/landingPage";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Navbar />
-      <Header />
-      <Info />
-      <Footer />
+      <LandingPage />
     </>
   );
 }
