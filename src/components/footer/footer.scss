@@ -2,11 +2,16 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: $grey4;
   border-top: 5px solid black;
+
+  &__name {
+    display: none;
+  }
 }
 
 .footer-left {
@@ -24,11 +29,6 @@
   align-items: center;
   justify-content: center;
   flex-grow: 1;
-}
-
-.footer-right {
-  text-align: right;
-  padding-right: 3rem;
 }
 
 .footer-info h4 {

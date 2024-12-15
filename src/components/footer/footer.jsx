@@ -8,13 +8,13 @@ function footer() {
       <footer className="footer">
         <div className="footer-left">
           <img src={logo} className="footer-logo" type="image/webp" />
-          <h4>Klinefelter Support Society</h4>
+          <h4 className="footer__name">Klinefelter Support Society</h4>
         </div>
         <div className="footer-mid">
           <p>(add social media links)</p>
         </div>
-        <div className="footer-right">
-          <div className="footer-info">
+        <div className="footer__right">
+          <div className="footer__info">
             <p>
               <strong>Location:</strong> Edmonton, AB
             </p>
