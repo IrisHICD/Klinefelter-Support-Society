@@ -6,10 +6,10 @@ function info() {
   return (
     <div className="info">
       <div className="info__left"></div>
-      <img src={dna}></img>
+      <img className="info__img" src={dna}></img>
       <div className="info__right">
-        <h2>Discover our mission</h2>
-        <p>
+        <h2 className="info__text">Discover our mission</h2>
+        <p className="info__text">
           Learn more about our dedication to raising awareness about Klinefelter
           syndrome, the positive impact we create in the lives of individuals
           with the condition, and the sense of belonging we strive to foster
